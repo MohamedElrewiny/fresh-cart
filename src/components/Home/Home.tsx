@@ -1,3 +1,4 @@
+import FeaturedCategories from "./Components/MainSlider/FeaturedCategories/FeaturedCategories";
 import MainSlider from "./Components/MainSlider/MainSlider";
 
 const Home = () => {
@@ -5,6 +6,7 @@ const Home = () => {
     <div className="py-6">
       <div className="container">
         <MainSlider />
+        <FeaturedCategories/>
       </div>
     </div>
   );
