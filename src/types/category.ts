@@ -3,3 +3,5 @@ export interface AllCategoryType {
   name: string;
   image: string;
 }
+
+export type Category = AllCategoryType;

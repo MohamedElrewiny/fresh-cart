@@ -4,7 +4,7 @@ import "swiper/css";
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 import { useEffect, useRef, useState } from "react";
 import { getAllCategories } from "../../../../../api/Categories/getAllCategories";
-import type { Category } from "../../../../../types/category";
+import type { AllCategoryType as Category } from "../../../../../types/category";
 import type { Swiper as SwiperType } from "swiper";
 import CategorySkeleton from "./CategorySkeleton";
 
@@ -31,7 +31,7 @@ const FeaturedCategories = () => {
   return (
     <div className="py-6">
       <div className="flex items-center justify-between mb-2">
-        <h2 className="text-2xl font-bold mb-4">Featured Categories</h2>
+        <h2 className="text-2xl font-bold text-gray-900 mb-4">Featured Categories</h2>
 
         <div className="flex gap-2">
           <FaArrowAltCircleLeft
